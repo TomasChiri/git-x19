@@ -1,3 +1,5 @@
+ls --> muestra lo que hay dentro de la carpeta
+cd --> change directory
 git status --> para ver el estado del archivo en git
 git add --> se agrega el archivo que se quiere vaya a control de cambios
 git config --global user.name "Josefina Patanian" --> para indicar el nombre del usuario que lo usaria en esa pc
@@ -6,3 +8,14 @@ estas dos configuraciones se hacen para poder guardar los cambios
 git commit --> para guardar los cambios
 se coloca un nombre, esc, y :qt y se crea.
 git log --> muestra los cambios q se realizaron
+--oneline, --all, --graph
+git diff HEAD--> muestra las diferencias entre ultima confirmacion y como esta ahora
+git blame (archivo) --> te da el autor de los cambios 
+-am --> add message
+--amend --> arregla el ultimo commit
+git branch --> ve las ramas
+git checkout (nro de commit)--> volves a un commit anterior y podes hacer cambios y cosas asi
+git checkout (nombre de rama) --> vuelve a la rama principal si el caso es master o main
+git checkout HEAD^^--> vuelve atras la cantidad de veces del simbolo ese
+git checkout HEAD~3 --> vuelve atras la cantidad de veces del numero despues del simbolo ese
+
