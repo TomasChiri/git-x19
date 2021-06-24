@@ -7,6 +7,7 @@ git config --global user.email "jpatanian@gmail.com"--> para indicar el email de
 estas dos configuraciones se hacen para poder guardar los cambios
 git commit --> para guardar los cambios
 se coloca un nombre, esc, y :qt y se crea.
+git push (nombre de repositorio)--> sube al repositorio remoto
 git log --> muestra los cambios q se realizaron
 --oneline, --all, --graph
 git diff HEAD--> muestra las diferencias entre ultima confirmacion y como esta ahora
@@ -18,4 +19,6 @@ git checkout (nro de commit)--> volves a un commit anterior y podes hacer cambio
 git checkout (nombre de rama) --> vuelve a la rama principal si el caso es master o main
 git checkout HEAD^^--> vuelve atras la cantidad de veces del simbolo ese
 git checkout HEAD~3 --> vuelve atras la cantidad de veces del numero despues del simbolo ese
+git fetch --> trae la historia del proyecto
+git pull --> trae el historial del repositorio remoto y los fusiona
 
