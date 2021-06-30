@@ -56,6 +56,27 @@
                     no podran ser reestablecidos y tampoco se llevara
                     contro de los mismos. 
                 </p>
+                <ul class="commands">
+                    <li>
+                        <strong>git status</strong> compara el contenido del INDEX con el 
+                        contenido del Working Directory y devuelve el estado de los archivos
+                        <ul>
+                            <li><strong>untracked</strong> archivo al que no se le esta
+                            haciendo seguimiento</li>
+                            <li><strong>staged</strong> archivo agregado al INDEX pero al que nunca
+                            se le realizo un commit</li>
+                            <li><strong>modified</strong> archivo cuyo contenido difiere de lo registrado
+                            en el INDEX</li>
+                            <li><strong>commited</strong> archivo cuyos cambios ya fueron confirmados</li>
+                        </ul>
+                    </li>
+                    <li><strong>git add &lt;file</strong> se utiliza para agregar un archivo 
+                    o conjunto de archivos al Staging Area (INDEX)</li>
+                    <li><strong>git reset &lt;file --cached</strong> quita del INDEX un archivo 
+                    agregado por primera vez</li>
+                    <li><strong>git restore --staged &lt;file</strong> quita del INDEX las 
+                    modificaciones realizadas sobre un archivo</li>
+                </ul>
             </article>
             <article>
                 <h3>Repository</h3>
