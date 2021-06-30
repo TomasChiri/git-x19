@@ -7,8 +7,34 @@
     body,
     h1,
     h2,
-    h3{
+    h3
+    .menu{
         margin: 0;
+    }
+/*Navigation*/
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background: #448 linear-gradient(#36c, #448);
+    }
+    nav a{
+        display: block;
+        padding: .5rem;
+        color:#eee;
+        text-decoration: none;
+    }
+    .button{
+        margin: .5rem;
+    }
+    .menu{
+        width: 100%;
+        padding: 0;
+        list-style: none;
+    }
+    .menu a:hover{
+        background-color: #3338;
     }
 /*Small Devices - Smartphones*/
 
