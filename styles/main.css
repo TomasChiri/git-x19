@@ -51,6 +51,23 @@
     .menu a:hover{
         background-color: #3338;
     }
+    /*Header*/
+    header{
+        display: grid;
+        height: 100vh;
+        max-height: 600px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        font-size: calc(2vw + .8rem);
+        color: #eee;
+        background-color: #333;
+    }
+    header h1,
+    header p{
+        margin: 0;
+        text-shadow: 0 0 .5rem #eee;
+    }
 /*Small Devices - Smartphones*/
 
 /*Medium Devices - Tablets*/
